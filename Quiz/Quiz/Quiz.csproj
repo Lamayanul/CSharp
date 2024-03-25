@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tot.cs" />
     <Compile Include="Quizz.cs" />
     <Compile Include="Intrebare.cs" />
     <Compile Include="Program.cs" />
