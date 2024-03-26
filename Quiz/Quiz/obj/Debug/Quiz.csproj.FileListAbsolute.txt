@@ -5,3 +5,10 @@ C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\obj\Debug\Quiz.csproj.AssemblyReference.ca
 C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
 C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\obj\Debug\Quiz.exe
 C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\obj\Debug\Quiz.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Intrebare.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Intrebare.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\obj\Debug\Quiz.csproj.Up2Date
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Quizz.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Quizz.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Tot.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Tot.pdb

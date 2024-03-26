@@ -28,9 +28,10 @@ public class Intrebare
             raspunsG++;
         }
     }
-    public void AfisareScor()
+    public string AfisareScor()
     {
-        Console.WriteLine("Ai acumulat : {0} puncte", raspunsC);
+        string sir = String.Format("Ai acumulat: {0} puncte", raspunsC);
+        return sir;
     }
     public bool ContineCuvant(string cuvant)
     {

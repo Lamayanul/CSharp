@@ -43,14 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tot.cs" />
-    <Compile Include="Quizz.cs" />
-    <Compile Include="Intrebare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Intrebare\Intrebare.csproj">
+      <Project>{101b9a99-6527-4d03-ac38-15a73d76fcf7}</Project>
+      <Name>Intrebare</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quizz\Quizz.csproj">
+      <Project>{38b9c2e7-ff47-4b9a-a093-fcba3330e86e}</Project>
+      <Name>Quizz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tot\Tot.csproj">
+      <Project>{b39c30ca-1652-4284-94a9-9a2e89787ccd}</Project>
+      <Name>Tot</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

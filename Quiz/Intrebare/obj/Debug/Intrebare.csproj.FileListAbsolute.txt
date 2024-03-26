@@ -1,0 +1,6 @@
+C:\C#\Proiect_CSharp\CSharp\Quiz\Intrebare\bin\Debug\Intrebare.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\Intrebare\bin\Debug\Intrebare.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\Intrebare\obj\Debug\Intrebare.csproj.AssemblyReference.cache
+C:\C#\Proiect_CSharp\CSharp\Quiz\Intrebare\obj\Debug\Intrebare.csproj.CoreCompileInputs.cache
+C:\C#\Proiect_CSharp\CSharp\Quiz\Intrebare\obj\Debug\Intrebare.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\Intrebare\obj\Debug\Intrebare.pdb

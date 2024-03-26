@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,15 +19,10 @@ public class Quizz
     {
         return "raspunsuri salvate";
     }
-    public void Ultimulscor(int punct)
+    public void Ultimulscor(int punct, string name)
     {
         int punctajTotal = punct;
-        Console.WriteLine("Vrei sa iti salvezi scorul?");
-        string salvare2 = Console.ReadLine();
-        if (salvare2 == "y")
-        {
-            Console.WriteLine("Introdu numele: ");
-            string nume = Console.ReadLine();
+        string nume = name;
             string caleFisier = "LastScor.txt";
             using (StreamWriter writer = new StreamWriter(caleFisier))
             {
@@ -37,10 +33,8 @@ public class Quizz
                 writer.WriteLine(punctajTotal);
                 writer.WriteLine("-----------------------------------------------");
             }
-            Console.WriteLine(SubmitRaspunsuri());
-            Console.ReadLine();
-
+            SubmitRaspunsuri();
         }
     }
-}
+
 

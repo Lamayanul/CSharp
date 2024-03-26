@@ -86,7 +86,15 @@ namespace Quiz
                         Console.WriteLine("Punctaj total acumulat: " + punctajTotal);
                         Console.ReadLine();
                         Console.ReadLine();
-                        ecran.Ultimulscor(punctajTotal);
+                        Console.WriteLine("Vrei sa iti salvezi scorul?");
+                        string salvare2 = Console.ReadLine();
+                        if (salvare2 == "y")
+                        {
+                            Console.WriteLine("Introdu numele: ");
+                            string nume = Console.ReadLine();
+                            ecran.Ultimulscor(punctajTotal, nume);
+                        }
+                        Console.ReadLine();
                         break;
 
                     case 2:
@@ -101,13 +109,20 @@ namespace Quiz
                         }
                         Console.WriteLine("Punctaj total acumulat: " + punctajTotal);
                         Console.ReadLine();
-                        ecran.Ultimulscor(punctajTotal);
-
+                        Console.WriteLine("Vrei sa iti salvezi scorul?");
+                        string salvare3 = Console.ReadLine();
+                        if (salvare3 == "y")
+                        {
+                            Console.WriteLine("Introdu numele: ");
+                            string nume = Console.ReadLine();
+                            ecran.Ultimulscor(punctajTotal,nume);
+                        }
+                        Console.ReadLine();
                         break;
                     case 3:
                         {
                             Tot challenge = new Tot();
-                            challenge.ExecutaChallenge();
+                            Console.WriteLine(challenge.ExecutaChallenge());
                             Console.ReadLine();
                             break;
                         }
@@ -127,7 +142,15 @@ namespace Quiz
                             }
                             Console.WriteLine("Punctaj total acumulat: " + punctajTotal);
                             Console.ReadLine();
-                            ecran.Ultimulscor(punctajTotal);
+                            Console.WriteLine("Vrei sa iti salvezi scorul?");
+                            string salvare4 = Console.ReadLine();
+                            if (salvare4 == "y")
+                            {
+                                Console.WriteLine("Introdu numele: ");
+                                string nume = Console.ReadLine();
+                                ecran.Ultimulscor(punctajTotal, nume);
+                            }
+                            Console.ReadLine();
                             break;
                         }
                     case 5:

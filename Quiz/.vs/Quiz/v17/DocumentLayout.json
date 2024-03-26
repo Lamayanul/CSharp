@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B39C30CA-1652-4284-94A9-9A2E89787CCD}|Tot\\Tot.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\tot\\tot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39C30CA-1652-4284-94A9-9A2E89787CCD}|Tot\\Tot.csproj|solutionrelative:tot\\tot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|solutionrelative:quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\quiz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|solutionrelative:quiz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101B9A99-6527-4D03-AC38-15A73D76FCF7}|Intrebare\\Intrebare.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\intrebare\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B9A99-6527-4D03-AC38-15A73D76FCF7}|Intrebare\\Intrebare.csproj|solutionrelative:intrebare\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\quiz\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|solutionrelative:quiz\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38B9C2E7-FF47-4B9A-A093-FCBA3330E86E}|Quizz\\Quizz.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\quizz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38B9C2E7-FF47-4B9A-A093-FCBA3330E86E}|Quizz\\Quizz.csproj|solutionrelative:quizz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Quizz.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Quizz.cs",
-              "RelativeDocumentMoniker": "Quiz\\Quizz.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Quizz.cs*",
-              "RelativeToolTip": "Quiz\\Quizz.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "DocumentIndex": 0,
+              "Title": "Tot.cs",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Tot\\Tot.cs",
+              "RelativeDocumentMoniker": "Tot\\Tot.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Tot\\Tot.cs",
+              "RelativeToolTip": "Tot\\Tot.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:48:26.175Z",
+              "WhenOpened": "2024-03-26T21:22:00.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Quizz.cs",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quizz\\Quizz.cs",
+              "RelativeDocumentMoniker": "Quizz\\Quizz.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quizz\\Quizz.cs",
+              "RelativeToolTip": "Quizz\\Quizz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T19:34:07.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Intrebare.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Intrebare.cs",
-              "RelativeDocumentMoniker": "Quiz\\Intrebare.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Intrebare.cs",
-              "RelativeToolTip": "Quiz\\Intrebare.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBQAAAANAAAA",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Intrebare\\Intrebare.cs",
+              "RelativeDocumentMoniker": "Intrebare\\Intrebare.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Intrebare\\Intrebare.cs",
+              "RelativeToolTip": "Intrebare\\Intrebare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:46:04.841Z",
+              "WhenOpened": "2024-03-26T19:31:32.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Program.cs",
               "RelativeDocumentMoniker": "Quiz\\Program.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Program.cs*",
-              "RelativeToolTip": "Quiz\\Program.cs*",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAA1AAAA",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Program.cs",
+              "RelativeToolTip": "Quiz\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T17:30:33.097Z",
               "EditorCaption": ""
