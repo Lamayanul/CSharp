@@ -28,7 +28,6 @@ namespace Quiz
             string caleFisier2 = "intrebari.txt";
             using (StreamWriter writer = new StreamWriter(caleFisier2))
             {
-                
                 for (int i=0;i<intrebari.Length;i++)
                 {
                     writer.WriteLine(intrebari[i].AfisIntrebare());
@@ -80,7 +79,7 @@ namespace Quiz
                             Console.WriteLine(intrebari[i].AfisIntrebare());
                             string ras = Console.ReadLine();
                             intrebari[i].Verifica(ras);
-                            intrebari[i].AfisareScor();
+                            Console.WriteLine(intrebari[i].AfisareScor());
                             punctajTotal += intrebari[i].raspunsC;
                         }
                         Console.WriteLine("Punctaj total acumulat: " + punctajTotal);
@@ -104,7 +103,7 @@ namespace Quiz
                             Console.WriteLine(intrebari[i].AfisIntrebare());
                             string ras = Console.ReadLine();
                             intrebari[i].Verifica(ras);
-                            intrebari[i].AfisareScor();
+                            Console.WriteLine(intrebari[i].AfisareScor());
                             punctajTotal += intrebari[i].raspunsC;
                         }
                         Console.WriteLine("Punctaj total acumulat: " + punctajTotal);
@@ -137,7 +136,7 @@ namespace Quiz
                                 Console.WriteLine(intrebari[numarAleatoriu].AfisIntrebare());
                                 string ras = Console.ReadLine();
                                 intrebari[numarAleatoriu].Verifica(ras);
-                                intrebari[numarAleatoriu].AfisareScor();
+                                Console.WriteLine(intrebari[numarAleatoriu].AfisareScor());
                                 punctajTotal += intrebari[numarAleatoriu].raspunsC;
                             }
                             Console.WriteLine("Punctaj total acumulat: " + punctajTotal);
