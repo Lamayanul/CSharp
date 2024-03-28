@@ -1,8 +1,9 @@
-Cerul este albastru?
-Romania este cea mai frumoasa tara?
-Exista munti in Romania?
-Mancarea romaneasca este buna?
-Inteligenta artificiala este o amenintare?
-Ai vrea sa ajungi pe luna?
-Stefan cel Mare era mare?
-Stefan cel Mare a fost domnitor?
+Cerul este albastru?;y
+Romania este cea mai frumoasa tara?;y
+Exista munti in Romania?;y
+Mancarea romaneasca este buna?;y
+Inteligenta artificiala este o amenintare?;y
+Ai vrea sa ajungi pe luna?;y
+Stefan cel Mare era mare?;y
+Stefan cel Mare a fost domnitor?;y
+Istoria este importanta?;y

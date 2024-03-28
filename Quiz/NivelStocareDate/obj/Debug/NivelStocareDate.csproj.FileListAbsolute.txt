@@ -1,0 +1,6 @@
+C:\C#\Proiect_CSharp\CSharp\Quiz\NivelStocareDate\bin\Debug\NivelStocareDate.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\NivelStocareDate\bin\Debug\NivelStocareDate.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\NivelStocareDate\obj\Debug\NivelStocareDate.csproj.AssemblyReference.cache
+C:\C#\Proiect_CSharp\CSharp\Quiz\NivelStocareDate\obj\Debug\NivelStocareDate.csproj.CoreCompileInputs.cache
+C:\C#\Proiect_CSharp\CSharp\Quiz\NivelStocareDate\obj\Debug\NivelStocareDate.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\NivelStocareDate\obj\Debug\NivelStocareDate.pdb

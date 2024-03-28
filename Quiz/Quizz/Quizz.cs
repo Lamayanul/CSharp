@@ -33,7 +33,7 @@ public class Quizz
                 writer.WriteLine(punctajTotal);
                 writer.WriteLine("-----------------------------------------------");
             }
-            SubmitRaspunsuri();
+            
         }
     }
 

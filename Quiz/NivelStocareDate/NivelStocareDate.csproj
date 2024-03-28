@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Quiz</RootNamespace>
-    <AssemblyName>Quiz</AssemblyName>
+    <ProjectGuid>{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NivelStocareDate</RootNamespace>
+    <AssemblyName>NivelStocareDate</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,29 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Stocare.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Intrebare\Intrebare.csproj">
-      <Project>{101b9a99-6527-4d03-ac38-15a73d76fcf7}</Project>
-      <Name>Intrebare</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NivelStocareDate\NivelStocareDate.csproj">
-      <Project>{2e4b6cea-3eda-4220-9646-fc1e85a9168c}</Project>
-      <Name>NivelStocareDate</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Quizz\Quizz.csproj">
-      <Project>{38b9c2e7-ff47-4b9a-a093-fcba3330e86e}</Project>
-      <Name>Quizz</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tot\Tot.csproj">
-      <Project>{b39c30ca-1652-4284-94a9-9a2e89787ccd}</Project>
-      <Name>Tot</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

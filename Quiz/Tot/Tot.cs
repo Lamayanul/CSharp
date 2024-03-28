@@ -66,9 +66,7 @@ namespace Quiz
 
             string[] nouTablou = new string[tablou.Length + 1];
             Array.Copy(tablou, nouTablou, tablou.Length);
-
-
-            nouTablou[nouTablou.Length - 1] = intr;
+            nouTablou[nouTablou.Length - 1] = intr.Substring(0, intr.Length - 2); ;
             return nouTablou;
         }
     }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz", "Quizz\Quizz.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tot", "Tot\Tot.csproj", "{B39C30CA-1652-4284-94A9-9A2E89787CCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NivelStocareDate", "NivelStocareDate\NivelStocareDate.csproj", "{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{B39C30CA-1652-4284-94A9-9A2E89787CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B39C30CA-1652-4284-94A9-9A2E89787CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B39C30CA-1652-4284-94A9-9A2E89787CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,43 +1,49 @@
 ﻿using System;
 using System.IO;
 using System.Text;
-public class Intrebare
+
+namespace Quiz
 {
-    public int raspunsC { get; set; }
-    public int raspunsG { get; set; }
-    string intrebare;
-    string raspuns;
-    public Intrebare(string intr, string rasp)
+    public class Intrebare
     {
-        intrebare = intr;
-        raspuns = rasp;
-    }
-
-    public string AfisIntrebare()
-    {
-        return intrebare;
-    }
-    public void Verifica(string str)
-    {
-        if (str == raspuns)
+        public int raspunsC { get; set; }
+        public int raspunsG { get; set; }
+        string intrebare;
+        string raspuns;
+        public Intrebare(string intr, string rasp)
         {
-            raspunsC++;
+            intrebare = intr;
+            raspuns = rasp;
         }
-        else
+
+        public string AfisIntrebare()
         {
-            raspunsG++;
+            
+             return intrebare.Substring(0, intrebare.Length - 2); 
+            
         }
-    }
-    public string AfisareScor()
-    {
-        string sir = String.Format("Ai acumulat: {0} puncte", raspunsC);
-        return sir;
-    }
-    public bool ContineCuvant(string cuvant)
-    {
+        public void Verifica(string str)
+        {
+            if (str == raspuns)
+            {
+                raspunsC++;
+            }
+            else
+            {
+                raspunsG++;
+            }
+        }
+        public string AfisareScor()
+        {
+            string sir = String.Format("Ai acumulat: {0} puncte", raspunsC);
+            return sir;
+        }
+        public bool ContineCuvant(string cuvant)
+        {
 
-        string intrebareMica = intrebare.ToLower();
+            string intrebareMica = intrebare.ToLower();
 
-        return intrebareMica.Contains(cuvant.ToLower());
+            return intrebareMica.Contains(cuvant.ToLower());
+        }
     }
 }
