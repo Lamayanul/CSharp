@@ -26,7 +26,7 @@ namespace Quiz
             Intrebare[] intrebari = new Intrebare[nrLinii];
             string[] rezultat = c1.GetIntrebari(caleFisier5);
             string[] rezultat1= c1.GetRaspunsuri(caleFisier5);
-            Console.WriteLine(rezultat[0]); 
+             
             for(int i = 0;i<nrLinii;i++)
             {
                 intrebari[i] = new Intrebare(rezultat[i], rezultat1[i]);

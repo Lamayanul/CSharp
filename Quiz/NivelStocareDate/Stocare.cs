@@ -49,7 +49,7 @@ namespace NivelStocareDate
         {
             int punctajTotal = punct;
             string nume = name;
-            string caleFisier = "tabela.txt";
+            string caleFisier = @"C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\dabela.txt";
             using (StreamWriter writer = new StreamWriter(caleFisier,true))
             {
                 writer.WriteLine("-----------------------------------------------");
@@ -57,6 +57,7 @@ namespace NivelStocareDate
                 writer.WriteLine(nume);
                 writer.WriteLine(punctajTotal);
                 writer.WriteLine("-----------------------------------------------");
+                writer.Close();
             }
             
         }
@@ -87,7 +88,7 @@ namespace NivelStocareDate
 
             if (!string.IsNullOrEmpty(numeCelMaiMareScor))
             {
-               return $"Cel mai mare scor: {celMaiMareScor}, obținut de către {numeCelMaiMareScor}.";
+               return $"Cel mai mare scor: {celMaiMareScor}, obtinut de către {numeCelMaiMareScor}.";
             }
             else
             {
