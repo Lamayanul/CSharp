@@ -43,8 +43,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
+            this.Intrebari = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,6 +51,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -203,25 +212,15 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // label3
+            // Intrebari
             // 
-            this.label3.Location = new System.Drawing.Point(282, 135);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(245, 47);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "label3";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(555, 317);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(138, 58);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "Urmatoarea";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.Intrebari.Location = new System.Drawing.Point(282, 135);
+            this.Intrebari.Name = "Intrebari";
+            this.Intrebari.Size = new System.Drawing.Size(245, 47);
+            this.Intrebari.TabIndex = 16;
+            this.Intrebari.Text = "label3";
+            this.Intrebari.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Intrebari.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
@@ -266,11 +265,11 @@
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(282, 135);
+            this.label6.Location = new System.Drawing.Point(282, 125);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(245, 83);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Salveaza Scor";
+            this.label6.Text = "Salvati scorul?";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
@@ -293,6 +292,106 @@
             this.button12.Text = "Submit";
             this.button12.UseVisualStyleBackColor = true;
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(585, 135);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(155, 47);
+            this.button13.TabIndex = 25;
+            this.button13.Text = "Cautare intrebare";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Location = new System.Drawing.Point(463, 259);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(64, 41);
+            this.radioButton1.TabIndex = 26;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "DA\r\n";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Location = new System.Drawing.Point(282, 259);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(64, 41);
+            this.radioButton2.TabIndex = 27;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "NU";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(282, 135);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(245, 47);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "Intrebari";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Location = new System.Drawing.Point(674, 282);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(101, 23);
+            this.checkBox1.TabIndex = 29;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Location = new System.Drawing.Point(59, 282);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(102, 23);
+            this.checkBox2.TabIndex = 30;
+            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.Location = new System.Drawing.Point(231, 282);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(106, 23);
+            this.checkBox3.TabIndex = 31;
+            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.Location = new System.Drawing.Point(475, 281);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(99, 24);
+            this.checkBox4.TabIndex = 32;
+            this.checkBox4.Text = "checkBox4";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(555, 317);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(138, 58);
+            this.button14.TabIndex = 33;
+            this.button14.Text = "NEXT\r\n";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(91, 315);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(138, 60);
+            this.button15.TabIndex = 34;
+            this.button15.Text = "Verifica";
+            this.button15.UseVisualStyleBackColor = true;
+           
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -300,6 +399,15 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label6);
@@ -307,8 +415,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Intrebari);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button4);
@@ -323,6 +430,7 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
+            this.Controls.Add(this.label7);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Quiz";
@@ -351,8 +459,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label Intrebari;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label4;
@@ -360,6 +467,16 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
     }
 }
 

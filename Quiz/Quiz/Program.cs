@@ -64,7 +64,10 @@ namespace Quiz
                 switch (numar)
                 {
                     case 1:
+                        Stocare.Tip tip = Stocare.Tip.geografie;
+                        Console.WriteLine(tip.ToString());
                         Console.WriteLine("Geografie sa fie atunci");
+                        
                         for (int i = 0; i < intrebari.Length - 2; i++)
                         {
                             Console.WriteLine(intrebari[i].AfisIntrebare());
@@ -90,6 +93,8 @@ namespace Quiz
                         break;
 
                     case 2:
+                        Stocare.Tip tip1 = Stocare.Tip.istorie;
+                        Console.WriteLine(tip1.ToString());
                         Console.WriteLine("Istorie sa fie atunci");
                         for (int i = 6; i < intrebari.Length; i++)
                         {

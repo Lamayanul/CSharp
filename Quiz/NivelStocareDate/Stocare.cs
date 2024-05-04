@@ -4,18 +4,70 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Dynamic;
+using System.Globalization;
 
 
 namespace NivelStocareDate
 {
     public class Stocare
     {
+        public enum Tip
+        {
+            istorie,
+            geografie
+        }
         public string[] GetIntrebari(string caleFisier)
         {
             string[] linii = File.ReadAllLines(caleFisier); 
 
             return linii; 
         }
+        public string[] GetIntr(string cale)
+        {
+            string[] linii = File.ReadAllLines("intrebari1.txt");
+
+            return linii;
+        }
+        public string[] GetRasp(string cale)
+        {
+            List<string> raspunsuri = new List<string>();
+
+            string[] lines = File.ReadAllLines(cale);
+
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(';');
+
+                
+                if (parts.Length >= 5)
+                {
+                    raspunsuri.Add(parts[1]); 
+                    raspunsuri.Add(parts[2]); 
+                    raspunsuri.Add(parts[3]); 
+                    raspunsuri.Add(parts[4]);
+                }
+                else
+                {
+                    
+                }
+            }
+
+            return raspunsuri.ToArray(); 
+        }
+        public string[] Corect(string cale)
+        {
+            List<string> corect = new List<string>();
+            string[] lines = File.ReadAllLines(cale);
+            foreach(string line in lines)
+            {
+                string[] part = line.Split(':');
+                corect.Add(part[1]);
+            }
+            return corect.ToArray();
+        }
+
+
         public string[] GetRaspunsuri(string caleFisier)
         {
             string[] linii = File.ReadAllLines(caleFisier); 

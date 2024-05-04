@@ -14,3 +14,5 @@ C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Tot.dll
 C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Tot.pdb
 C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\NivelStocareDate.dll
 C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\NivelStocareDate.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Intrebare1.dll
+C:\C#\Proiect_CSharp\CSharp\Quiz\Quiz\bin\Debug\Intrebare1.pdb

@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Intrebare1\Intrebare1.csproj">
+      <Project>{d238a22d-04f8-4fd0-aa17-0af45e23666a}</Project>
+      <Name>Intrebare1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Intrebare\Intrebare.csproj">
       <Project>{101b9a99-6527-4d03-ac38-15a73d76fcf7}</Project>
       <Name>Intrebare</Name>

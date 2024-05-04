@@ -1,0 +1,6 @@
+Care este capitala Germaniei?;Paris;Berlin;Praga;Belgrad;:Berlin
+Care planeta este locuibila?;Pamant;Venus;Marte;Uranus;:Pamant
+Care este capitala Italiei?;Madrid;Roma;Paris;Berlin;:Roma
+Care este cel mai inalt verf muntos din lume?;Kilimajaro;MontBlanc;Everest;Annapurna;:Everest
+Ce ocean inconjoara Antarctica?;Pacific;Indian;Atlantic;Antarctic;:Antarctic
+Care este cel mai mare lac din Africa?;Victoria;Tanganika;Malawi;Tanganyika;:Victoria
