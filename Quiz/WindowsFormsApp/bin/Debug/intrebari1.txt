@@ -4,3 +4,27 @@ Care este capitala Italiei?;Madrid;Roma;Paris;Berlin;:Roma
 Care este cel mai inalt verf muntos din lume?;Kilimajaro;MontBlanc;Everest;Annapurna;:Everest
 Ce ocean inconjoara Antarctica?;Pacific;Indian;Atlantic;Antarctic;:Antarctic
 Care este cel mai mare lac din Africa?;Victoria;Tanganika;Malawi;Tanganyika;:Victoria
+Care este cel mai mare deșert din lume?;Sahara;Gobi;Kalahari;Patagonia;:Sahara
+Care este cel mai lung fluviu din Europa?;Volga;Dunărea;Rin;Dnepr;:Volga
+Care este capitala Canadei?;Toronto;Vancouver;Ottawa;Montreal;:Ottawa
+Ce țară are cea mai mare suprafață de păduri tropicale?;Brazilia;Indonezia;Congo;Australia;:Brazilia
+Cine a fost primul președinte al Statelor Unite?;Abraham Lincoln;George Washington;Thomas Jefferson;John Adams;:George Washington
+În ce an a căzut Imperiul Roman de Apus?;410;476;500;550;:476
+Cine a descoperit America în 1492?;Ferdinand Magellan;James Cook;Christopher Columbus;Amerigo Vespucci;:Christopher Columbus
+În ce an a început Primul Război Mondial?;1912;1914;1916;1918;:1914
+Cine a fost conducătorul Uniunii Sovietice în timpul celui de-al Doilea Război Mondial?;Vladimir Lenin;Nikita Hrușciov;Iosif Stalin;Leonid Brejnev;:Iosif Stalin
+În ce an a avut loc Revoluția Franceză?;1776;1789;1804;1848;:1789
+Cine a fost primul împărat al Romei?;Nero;Traian;Caligula;Augustus;:Augustus
+În ce an a fost semnată Magna Carta?;1200;1215;1230;1250;:1215
+Cine a condus expediția care a cucerit Imperiul Aztec?;Francisco Pizarro;Hernán Cortés;Vasco da Gama;Ferdinand Magellan;:Hernán Cortés
+În ce an a fost dărâmat Zidul Berlinului?;1985;1987;1989;1991;:1989
+Care este autorul romanului "Mândrie și prejudecată"?;Jane Austen;Charles Dickens;George Orwell;Virginia Woolf;:Jane Austen
+Care este titlul celebrei tragedii scrisă de William Shakespeare despre prințul danez?;Hamlet;Macbeth;Othello;Regele Lear;:Hamlet
+În ce oraș se desfășoară acțiunea romanului "Mizerabilii" de Victor Hugo?;Paris;Londra;Berlin;Roma;:Paris
+Cine a scris "Don Quijote de la Mancha"?;Miguel de Cervantes;Gabriel Garcia Marquez;Federico García Lorca;Pablo Neruda;:Miguel de Cervantes
+Care este personajul principal din romanul "Moby Dick" de Herman Melville?;Captain Ahab;Ishmael;Queequeg;Starbuck;:Captain Ahab
+Cine a scris romanul "Război și pace"?;Lev Tolstoi;Fiodor Dostoievski;Anton Cehov;Ivan Turgheniev;:Lev Tolstoi
+Cine a scris romanul "Un veac de singurătate"?;Gabriel Garcia Marquez;Jorge Luis Borges;Mario Vargas Llosa;Julio Cortázar;:Gabriel Garcia Marquez
+Cine este autorul romanului "Marele Gatsby"?;F. Scott Fitzgerald;Ernest Hemingway;John Steinbeck;William Faulkner;:F. Scott Fitzgerald
+Care este titlul romanului scris de George Orwell despre o societate distopică?;1984;Ferma animalelor;Brave New World;A Clockwork Orange;:1984
+Cine a scris romanul "Crimă și pedeapsă"?;Fiodor Dostoievski;Lev Tolstoi;Nikolai Gogol;Ivan Turgheniev;:Fiodor Dostoievski

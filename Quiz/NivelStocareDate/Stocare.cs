@@ -97,7 +97,7 @@ namespace NivelStocareDate
             }
             return numarLinii;
         }
-        public void Tabela(int punct,string name)
+        public void Tabela(int punct,string name, string tip)
         {
             int punctajTotal = punct;
             string nume = name;
@@ -108,6 +108,7 @@ namespace NivelStocareDate
                 writer.WriteLine("Tabela cu rezultate: ");
                 writer.WriteLine(nume);
                 writer.WriteLine(punctajTotal);
+                writer.WriteLine(tip);
                 writer.WriteLine("-----------------------------------------------");
                 writer.Close();
             }

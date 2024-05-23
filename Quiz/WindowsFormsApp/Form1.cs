@@ -18,173 +18,100 @@ namespace WindowsFormsApp
     public partial class Form1 : Form
     {
 
-        private int indexIntrebareCurenta = 6;
+        
+
+        private int indexIntrebareCurenta = 10;
         private int indexIntrebareCurenta1 = 0;
-        private int index = 0;
-        private int index1 = 0;
+        private int indexIntrebareCurenta2 = 20;
+
 
         Stocare c1 = new Stocare();
         Quizz ecran = new Quizz();
         Timer timer = new Timer();
+        Timer timer1 = new Timer();
 
         int punctajTotal = 0;
-
-
-
-
-
 
         public Form1()
         {
             InitializeComponent();
-
-
-
-            button1.Click += new EventHandler(button1_Click);
-            button2.Click += new EventHandler(button2_Click);
-
-            button3.Click += new EventHandler(button3_Click_1);
-            button4.Click += new EventHandler(button4_Click_1);
-            button5.Click += new EventHandler(button5_Click);
-            button6.Click += new EventHandler(button6_Click);
             button12.Click += new EventHandler(button12_Click);
             button13.Click += new EventHandler(button13_Click);
-            button15.Click += new EventHandler(button15_Click);
+            button16.Click += new EventHandler(button16_Click);
             radioButton1.CheckedChanged += new EventHandler(radioButton1_CheckedChanged);
 
-            label1.Parent = pictureBox3;
-            button1.Parent = pictureBox3;
-            button2.Parent = pictureBox3;
-            label2.Parent = pictureBox2;
-            button9.Parent = pictureBox2;
-            Intrebari.Visible = false;
-            label7.Parent = pictureBox1;
-            textBox1.Parent = pictureBox2;
-            button11.Parent = pictureBox2;
-            label4.Parent = pictureBox2;
-            label5.Parent = pictureBox1;
-            label6.Parent = pictureBox2;
-            textBox2.Parent = pictureBox2;
-            button12.Parent = pictureBox2;
-            radioButton1.Parent = pictureBox2;
-            radioButton2.Parent = pictureBox2;
-            checkBox1.Parent = pictureBox1;
-            checkBox2.Parent = pictureBox1;
-            checkBox3.Parent = pictureBox1;
-            checkBox4.Parent = pictureBox1;
-            button14.Parent = pictureBox1;
-            button15.Parent = pictureBox1;
-            button12.Visible = false;
-            label6.Visible = false;
-            textBox2.Visible = false;
-            radioButton1.Visible = false;
-            radioButton2.Visible = false;
+
+            label8.Parent = pictureBox1;        // Salvare
+            label3.Parent = pictureBox1;        // Intrebari
+            label5.Parent = pictureBox1;        // Punctaj
+            textBox3.Parent = pictureBox1;      // Raspuns
+            button14.Parent = pictureBox1;      // Next
+            button15.Parent = pictureBox1;      // Verifica
+            radioButton3.Parent = pictureBox1;  // DA
+            radioButton4.Parent = pictureBox1;  // NU
+            textBox4.Parent = pictureBox1;      // Nume
+            button10.Parent = pictureBox1;      // Submit
+            label5.Visible = true;              // 
+            label8.Visible = false;             //
+            button10.Visible = false;           //
+            textBox4.Visible = false;           //
+            radioButton3.Visible = false;       //
+            radioButton4.Visible = false;       //
+           
+
+
+            label6.Parent = pictureBox2;        // Salvare
+            label2.Parent = pictureBox2;        // Intrebari
+            label4.Parent = pictureBox2;        // Punctaj
+            textBox2.Parent = pictureBox2;      // Raspuns
+            button9.Parent = pictureBox2;       // Next
+            button11.Parent = pictureBox2;      // Verifica
+            radioButton1.Parent = pictureBox2;  // DA
+            radioButton2.Parent = pictureBox2;  // NU
+            textBox1.Parent = pictureBox2;      // Nume
+            button12.Parent = pictureBox2;      // Submit
+            button12.Visible = false;           //
+            label6.Visible = false;             //
+            textBox2.Visible = false;           //
+            radioButton1.Visible = false;       //
+            radioButton2.Visible = false;       //
+            label4.Visible = true;              //
+
+
+            label10.Parent = pictureBox4;       // Salvare
+            label9.Parent = pictureBox4;        // Intrebari
+            label11.Parent = pictureBox4;       // Punctaj
+            textBox6.Parent = pictureBox4;      // Raspuns
+            button13.Parent = pictureBox4;      // Next
+            button16.Parent = pictureBox4;      // Verifica
+            radioButton5.Parent = pictureBox4;  // DA
+            radioButton6.Parent = pictureBox4;  // NU
+            textBox5.Parent = pictureBox4;      // Nume
+            button17.Parent = pictureBox4;      // Submit
+            button17.Visible = false;           //
+            label10.Visible = false;            //
+            textBox5.Visible = false;           //
+            radioButton5.Visible = false;       //
+            radioButton6.Visible = false;       //
+            label11.Visible = true;             //
+
+            label1.Parent = pictureBox3;        // Meniu
+            button1.Parent = pictureBox3;       // Domeniu
+            button2.Parent = pictureBox3;       // Domeniu
+            button20.Parent = pictureBox3;      // Domeniu
         }
 
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void Timer_Tick(object sender, EventArgs e)
         {
+            textBox1.BackColor = Color.White;
+            textBox3.BackColor = Color.White;
+            textBox6.BackColor = Color.White;
+
+
+            timer.Stop();
         }
 
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            button1.Visible = false;
-            button2.Visible = false;
-            pictureBox2.Visible = true;
-            pictureBox2.BringToFront();
-            button3.BringToFront();
-            button4.BringToFront();
-
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Visible = true;
-            pictureBox1.BringToFront();
-            button3.BringToFront();
-            button4.BringToFront();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-            pictureBox1.Visible = true;
-            pictureBox1.BringToFront();
-            button5.BringToFront();
-            button4.BringToFront();
-
-
-        }
-
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-            pictureBox2.Visible = true;
-            pictureBox2.BringToFront();
-            button5.BringToFront();
-            button7.BringToFront();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            pictureBox2.Visible = true;
-            pictureBox2.BringToFront();
-            button4.BringToFront();
-            button6.BringToFront();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            pictureBox3.Visible = true;
-            pictureBox3.BringToFront();
-            button4.BringToFront();
-            button3.BringToFront();
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Visible = true;
-            pictureBox1.BringToFront();
-            button3.BringToFront();
-            button8.BringToFront();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            pictureBox3.Visible = true;
-            pictureBox3.BringToFront();
-            button4.BringToFront();
-            button3.BringToFront();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button9_Click(object sender, EventArgs e)
+        private void button9_Click(object sender, EventArgs e)                         //
         {
             string caleFisier5 = "intrebari.txt";
             int nrLinii = c1.NumarLinii(caleFisier5);
@@ -193,149 +120,17 @@ namespace WindowsFormsApp
             string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
 
             button9.Enabled = false;
-            if (indexIntrebareCurenta < nrLinii)
+            if (indexIntrebareCurenta < nrLinii-10)                                     //next
             {
 
                 int len = rezultat[indexIntrebareCurenta].Length;
-                label2.Text = rezultat[indexIntrebareCurenta].Substring(0, len - 2);
+                label2.Text = rezultat[indexIntrebareCurenta].Substring(0, len - 2);   
 
                 indexIntrebareCurenta++;
             }
             button11.Enabled = true;
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void button14_Click(object sender, EventArgs e)
-        {
-            string cale = "intrebari1.txt";
-            int nrLinii = c1.NumarLinii(cale);
-            Intrebare1[] intrebari = new Intrebare1[nrLinii];
-            string[] rezultat = c1.GetIntr(cale);
-            string[] rezultat1 = c1.GetRasp(cale);
-            button14.Enabled = false;
-
-
-            if (index1 < nrLinii)
-            {
-                char separator = '?';
-                int indexSeparator = rezultat[index1].IndexOf(separator);
-
-                if (indexSeparator >= 0)
-                {
-                    checkBox1.Text = rezultat1[index];
-                    checkBox2.Text = rezultat1[index + 1];
-                    checkBox3.Text = rezultat1[index + 2];
-                    checkBox4.Text = rezultat1[index + 3];
-                    index = index + 4;
-                    string intrebare = rezultat[index1].Substring(0, indexSeparator + 1);
-                    label7.Text = intrebare;
-                }
-                else
-                {
-
-                    label7.Text = "Eroare la citirea întrebării";
-                }
-
-                index1++;
-            }
-        
-    
-            
-            button15.Enabled = true;
-    }
-        private void button15_Click(object sender, EventArgs e)
-        {
-          
-            string caleFisier5 = "intrebari1.txt";
-            int nrLinii = c1.NumarLinii(caleFisier5);
-            Intrebare[] intrebari = new Intrebare[nrLinii];
-            string[] rezultat = c1.GetIntr(caleFisier5);
-            string[] rezultat1 = c1.GetRasp(caleFisier5);
-            string[] rezultat2 = c1.Corect(caleFisier5);
-            button15.Enabled = false;
-           
-            if (checkBox1.Checked && checkBox1.Text  == rezultat2[index1-1])
-            {
-                punctajTotal++;
-                label5.Text = "Punctaj acumulat: " + punctajTotal;
-                MessageBox.Show("Răspunsul este corect!");
-
-            }
-            else if(checkBox2.Checked && checkBox2.Text == rezultat2[index1-1])
-            {
-                punctajTotal++;
-                label5.Text = "Punctaj acumulat: " + punctajTotal;
-                MessageBox.Show("Răspunsul este corect!");
-            }
-            else if(checkBox3.Checked && checkBox3.Text == rezultat2[index1 - 1])
-            {
-                punctajTotal++;
-                label5.Text = "Punctaj acumulat: " + punctajTotal;
-                MessageBox.Show("Răspunsul este corect!");
-            }
-            else if(checkBox4.Checked && checkBox4.Text == rezultat2[index1 - 1])
-            {
-                punctajTotal++;
-                label5.Text = "Punctaj acumulat: " + punctajTotal;
-                MessageBox.Show("Răspunsul este corect!");
-            }
-            else
-            {
-                MessageBox.Show("Răspunsul este incorect!");
-            }
-
-            if (index1 >= nrLinii)
-            {
-               button15.Visible= false;
-               button14.Visible= false;
-               checkBox1.Visible= false;
-               checkBox2.Visible= false;
-               checkBox3.Visible= false;
-               checkBox4.Visible= false;
-            }
-            button14.Enabled = true;
-        }
-    
-        private void button10_Click(object sender, EventArgs e)
-        {
-            string caleFisier5 = "intrebari.txt";
-            int nrLinii = c1.NumarLinii(caleFisier5);
-            Intrebare[] intrebari = new Intrebare[nrLinii];
-            string[] rezultat = c1.GetIntrebari(caleFisier5);
-            string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
-
-            if (indexIntrebareCurenta1 < nrLinii-3)
-            {
-
-                int len = rezultat[indexIntrebareCurenta1].Length;
-                Intrebari.Text = rezultat[indexIntrebareCurenta1].Substring(0, len - 2);
-
-                indexIntrebareCurenta1++;
-            }
-            
-        }
-            
-
-        
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Timer_Tick(object sender, EventArgs e)
-        {
-
-            textBox1.BackColor = Color.White;
-
-
-            timer.Stop();
-        }
-        private void button11_Click(object sender, EventArgs e)
+        }                                                                                 //
+        private void button11_Click(object sender, EventArgs e)                           //
         {
             timer.Interval = 1000;
             timer.Tick += Timer_Tick;
@@ -346,7 +141,7 @@ namespace WindowsFormsApp
             string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
 
             button11.Enabled = false;
-            if (textBox1.Text == rezultat1[indexIntrebareCurenta-1])
+            if (textBox1.Text == rezultat1[indexIntrebareCurenta - 1])                   
             {
                 punctajTotal++;
                 label4.Text = "Punctaj acumulat: " + punctajTotal;
@@ -358,12 +153,12 @@ namespace WindowsFormsApp
             }
             else
             {
-                MessageBox.Show("Răspunsul este incorect!");
+                MessageBox.Show("Răspunsul este incorect!");                      //verifica
                 textBox1.BackColor = Color.Red;
                 timer.Start();
             }
-           
-            if (indexIntrebareCurenta >= nrLinii)
+
+            if (indexIntrebareCurenta >= nrLinii-10)
             {
                 button9.Visible = false;
                 button11.Visible = false;
@@ -375,11 +170,325 @@ namespace WindowsFormsApp
                 label2.Visible = false;
                 button12.Visible = false;
             }
-            button9.Enabled= true;  
+            button9.Enabled = true;
+        }                                                                          //
+        private void button14_Click(object sender, EventArgs e)                    //
+        {
+            string caleFisier5 = "intrebari.txt";
+            int nrLinii = c1.NumarLinii(caleFisier5);
+            Intrebare[] intrebari = new Intrebare[nrLinii];
+            string[] rezultat = c1.GetIntrebari(caleFisier5);
+            string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
+
+            button14.Enabled = false;
+            if (indexIntrebareCurenta1 < nrLinii-20)
+            {
+
+                int len = rezultat[indexIntrebareCurenta1].Length;
+                label3.Text = rezultat[indexIntrebareCurenta1].Substring(0, len - 2);  // next
+
+                indexIntrebareCurenta1++;
+            }
+            button15.Enabled = true;
+        }                                                                              //
+
+        private void button15_Click(object sender, EventArgs e)                        // 
+        {
+            timer1.Interval = 1000;
+            timer1.Tick += Timer_Tick;
+            string caleFisier5 = "intrebari.txt";
+            int nrLinii = c1.NumarLinii(caleFisier5);
+            Intrebare[] intrebari = new Intrebare[nrLinii];
+            string[] rezultat = c1.GetIntrebari(caleFisier5);
+            string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
+
+            button15.Enabled = false;
+            if (textBox3.Text == rezultat1[indexIntrebareCurenta1 - 1])
+            {
+                punctajTotal++;
+                label5.Text = "Punctaj acumulat: " + punctajTotal;
+                MessageBox.Show("Răspunsul este corect!");
+
+                textBox3.BackColor = Color.Green;
+                timer.Start();
+
+            }
+            else
+            {
+                MessageBox.Show("Răspunsul este incorect!");                     //verifica
+                textBox3.BackColor = Color.Red;
+                timer1.Start();
+            }
+
+            if (indexIntrebareCurenta1 >= nrLinii-20)
+            {
+                button14.Visible = false;
+                button15.Visible = false;
+                textBox3.Visible = false;
+                radioButton3.Visible = true;
+                textBox3.Visible = false;
+                radioButton4.Visible = true;
+                label3.Visible = false;
+
+                label8.Visible = true;
+            }
+            button14.Enabled = true;
+        }                                                                        //
+
+        private void button13_Click(object sender, EventArgs e)                    //
+        {
+            string caleFisier5 = "intrebari.txt";
+            int nrLinii = c1.NumarLinii(caleFisier5);
+            Intrebare[] intrebari = new Intrebare[nrLinii];
+            string[] rezultat = c1.GetIntrebari(caleFisier5);
+            string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
+
+            button13.Enabled = false;
+            if (indexIntrebareCurenta2 < nrLinii)
+            {
+
+                int len = rezultat[indexIntrebareCurenta2].Length;
+                label9.Text = rezultat[indexIntrebareCurenta2].Substring(0, len - 2);  //next
+
+                indexIntrebareCurenta2++;
+            }
+            button16.Enabled = true;
+
+        }                                                                             //
+        private void button16_Click(object sender, EventArgs e)                      //
+        {
+            timer.Interval = 1000;
+            timer.Tick += Timer_Tick;
+            string caleFisier5 = "intrebari.txt";
+            int nrLinii = c1.NumarLinii(caleFisier5);
+            Intrebare[] intrebari = new Intrebare[nrLinii];
+            string[] rezultat = c1.GetIntrebari(caleFisier5);
+            string[] rezultat1 = c1.GetRaspunsuri(caleFisier5);
+
+            button16.Enabled = false;
+            if (textBox6.Text == rezultat1[indexIntrebareCurenta2 - 1])
+            {
+                punctajTotal++;
+                label11.Text = "Punctaj acumulat: " + punctajTotal;
+                MessageBox.Show("Răspunsul este corect!");
+
+                textBox6.BackColor = Color.Green;
+                timer.Start();
+
+            }
+            else
+            {
+                MessageBox.Show("Răspunsul este incorect!");                    // verifica
+                textBox6.BackColor = Color.Red;
+                timer.Start();
+            }
+
+            if (indexIntrebareCurenta2 >= nrLinii )
+            {
+                button13.Visible = false;
+                button16.Visible = false;
+
+                radioButton5.Visible = true;
+                textBox6.Visible = false;
+                radioButton6.Visible = true;
+                label9.Visible = false;
+                
+                label10.Visible = true;
+            }
+            button13.Enabled = true;
         }
-    
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                textBox2.Visible = true;
+                button12.Visible = true;
+            }
+        }                                                                            //
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked == true)
+            {
+                Environment.Exit(0);
+            }
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            c1.Tabela(punctajTotal, textBox4.Text, button1.Text);
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked == true)
+            {
+                textBox4.Visible = true;
+                button10.Visible = true;
+            }
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton4.Checked == true)
+            {
+                Environment.Exit(0);
+            }
+        }
+        private void button12_Click(object sender, EventArgs e)
+        {
+            c1.Tabela(punctajTotal, textBox2.Text, button2.Text);
+
+        }
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton5.Checked == true)
+            {
+                textBox5.Visible = true;
+                button17.Visible = true;
+            }
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton6.Checked == true)
+            {
+                Environment.Exit(0);
+            }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            c1.Tabela(punctajTotal, textBox5.Text, button20.Text);
+            Form3 Form3 = new Form3();
+            Form3.Form3_Load(sender,e);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             
-        
+            pictureBox2.Visible = true;
+            pictureBox2.BringToFront();
+            button6.BringToFront();
+            button8.BringToFront();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = true;
+            pictureBox1.BringToFront();
+            button7.BringToFront();
+            button5.BringToFront();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = true;
+            pictureBox4.BringToFront();
+            button18.BringToFront();
+            button19.BringToFront();
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = true;
+            pictureBox1.BringToFront();
+            button5.BringToFront();
+            button7.BringToFront();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = true;
+            pictureBox4.BringToFront();
+            button19.BringToFront();
+            button18.BringToFront();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox2.BringToFront();
+            button6.BringToFront();
+            button8.BringToFront();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = true;
+            pictureBox4.BringToFront();
+            button18.BringToFront();
+            button19.BringToFront();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = true;
+            pictureBox3.BringToFront();
+            button3.BringToFront();
+            button4.BringToFront();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = true;
+            pictureBox1.BringToFront();
+            button5.BringToFront();
+            button7.BringToFront();
+        }
+        private void button18_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = true;
+            pictureBox3.BringToFront();
+            button3.BringToFront();
+            button4.BringToFront();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox2.BringToFront();
+            button8.BringToFront();
+            button6.BringToFront();
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void label5_Click(object sender, EventArgs e)
         {
@@ -392,52 +501,6 @@ namespace WindowsFormsApp
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            c1.Tabela(punctajTotal, textBox2.Text);
-
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2();
-            form2.Form1Instance = this; 
-            form2.Show();
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton1.Checked == true)
-            {
-                textBox2.Visible = true;
-                button12.Visible = true;
-            }
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton2.Checked == true)
-            {
-                Environment.Exit(0);
-            }
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
 
         }
@@ -452,6 +515,48 @@ namespace WindowsFormsApp
 
         }
 
-       
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

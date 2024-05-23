@@ -23,3 +23,5 @@ C:\C#\Proiect_CSharp\CSharp\Quiz\WindowsFormsApp\obj\Debug\WindowsF.5F5EF213.Up2
 C:\C#\Proiect_CSharp\CSharp\Quiz\WindowsFormsApp\obj\Debug\WindowsFormsApp.form2.resources
 C:\C#\Proiect_CSharp\CSharp\Quiz\WindowsFormsApp\bin\Debug\Intrebare1.dll
 C:\C#\Proiect_CSharp\CSharp\Quiz\WindowsFormsApp\bin\Debug\Intrebare1.pdb
+C:\C#\Proiect_CSharp\CSharp\Quiz\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form3.resources
+C:\C#\Proiect_CSharp\CSharp\Quiz\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form4.resources

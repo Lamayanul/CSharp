@@ -20,11 +20,12 @@ namespace WindowsFormsApp
         string caleFisier5 = "intrebari.txt";
 
         Stocare c1 = new Stocare();
+        Tot t1 = new Tot();
         public Form2()
         {
             InitializeComponent();
             button1.Click += new EventHandler(button1_Click);
-
+            this.Load += new EventHandler(label4_Click);
         }
 
         private void form2_Load(object sender, EventArgs e)
@@ -70,6 +71,21 @@ namespace WindowsFormsApp
             }
             label2.Text = textConcatenat.ToString();
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label4.Text = t1.ExecutaChallenge();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,9 +1,30 @@
-Cerul este albastru?;y
-Romania este cea mai frumoasa tara?;y
-Exista munti in Romania?;y
-Mancarea romaneasca este buna?;y
-Inteligenta artificiala este o amenintare?;y
-Ai vrea sa ajungi pe luna?;y
-Stefan cel Mare era mare?;y
-Stefan cel Mare a fost domnitor?;y
-Istoria este importanta?;y
+Sunt Munții Himalaya cel mai înalt lanț muntos din lume?;y
+Este Amazonul cel mai lung râu din lume?;n
+Se află Marele Zid Chinezesc în Africa?;n
+Este Australia considerată o insulă și un continent?;y
+Se află Marea Moartă la cel mai jos punct pe uscat?;y
+Este Groenlanda considerată cea mai mare insulă din lume?;y
+Se află deșertul Sahara în America de Nord?;n
+Este Japonia alcătuită din patru insule principale?;y
+Este Marea Barieră de Corali situată în apropierea coastelor Australie?;y
+Este Antarctica cel mai rece continent de pe Pământ?;y
+A fost Alexandru cel Mare rege al Macedoniei?;y
+A avut loc bătălia de la Waterloo în anul 1815?;y
+Este Cleopatra considerată ultimul faraon al Egiptului?;y
+A fost Leonardo da Vinci cunoscut în principal ca matematician?;n
+A fost Regina Victoria pe tronul Angliei pentru mai mult de 60 de ani?;y
+A fost Martin Luther King Jr. laureat al Premiului Nobel pentru Pace?;y
+A fost Războiul de 100 de Ani între Anglia și Germania?;n
+A fost Moise cel care a condus poporul evreu în afara Egiptului?;y
+A fost Iulius Cezar primul împărat al Romei?;n
+A fost Constantinopolul redenumit Istanbul după cucerirea otomană?;y
+A scris William Shakespeare „Odiseea”?;n
+Este „Război și Pace” scrisă de Lev Tolstoi?;y
+A scris J.K. Rowling seria „Harry Potter”?;y
+Este „Moby Dick” un roman despre o balenă?;y
+A scris Charles Dickens „Mândrie și Prejudecată”?;n
+Este „Don Quijote” scris de Miguel de Cervantes?;y
+A fost „Frankenstein” scris de Mary Shelley?;y
+Este „Divina Comedie” scrisă de Dante Alighieri?;y
+A scris George Orwell „Ferma Animalelor”?;y
+A fost „Iliada” scrisă de Sofocle?;n

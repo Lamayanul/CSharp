@@ -86,7 +86,7 @@ namespace Quiz
                             Console.WriteLine("Introdu numele: ");
                             string nume = Console.ReadLine();
                             ecran.Ultimulscor(punctajTotal, nume);
-                            c1.Tabela(punctajTotal, nume);
+                            //c1.Tabela(punctajTotal, nume);
                             Console.WriteLine(ecran.SubmitRaspunsuri());
                         }
                         Console.ReadLine();
@@ -113,7 +113,7 @@ namespace Quiz
                             Console.WriteLine("Introdu numele: ");
                             string nume = Console.ReadLine();
                             ecran.Ultimulscor(punctajTotal,nume);
-                            c1.Tabela(punctajTotal, nume);
+                            //c1.Tabela(punctajTotal, nume);
                             Console.WriteLine(ecran.SubmitRaspunsuri());
                         }
                         Console.ReadLine();
@@ -148,7 +148,7 @@ namespace Quiz
                                 Console.WriteLine("Introdu numele: ");
                                 string nume = Console.ReadLine();
                                 ecran.Ultimulscor(punctajTotal, nume);
-                                c1.Tabela(punctajTotal, nume);
+                                //c1.Tabela(punctajTotal, nume);
                             }
                             Console.ReadLine();
                             break;

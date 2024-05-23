@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{101B9A99-6527-4D03-AC38-15A73D76FCF7}|Intrebare\\Intrebare.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\intrebare\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B9A99-6527-4D03-AC38-15A73D76FCF7}|Intrebare\\Intrebare.csproj|solutionrelative:intrebare\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}|NivelStocareDate\\NivelStocareDate.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\nivelstocaredate\\stocare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B6CEA-3EDA-4220-9646-FC1E85A9168C}|NivelStocareDate\\NivelStocareDate.csproj|solutionrelative:nivelstocaredate\\stocare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\windowsformsapp\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{756C0CE4-134B-4BFA-B4E4-BEA114D770BE}|Quiz\\Quiz.csproj|solutionrelative:quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B39C30CA-1652-4284-94A9-9A2E89787CCD}|Tot\\Tot.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\tot\\tot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B39C30CA-1652-4284-94A9-9A2E89787CCD}|Tot\\Tot.csproj|solutionrelative:tot\\tot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{101B9A99-6527-4D03-AC38-15A73D76FCF7}|Intrebare\\Intrebare.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\intrebare\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101B9A99-6527-4D03-AC38-15A73D76FCF7}|Intrebare\\Intrebare.csproj|solutionrelative:intrebare\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D238A22D-04F8-4FD0-AA17-0AF45E23666A}|Intrebare1\\Intrebare1.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\intrebare1\\intrebare1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D238A22D-04F8-4FD0-AA17-0AF45E23666A}|Intrebare1\\Intrebare1.csproj|solutionrelative:intrebare1\\intrebare1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38B9C2E7-FF47-4B9A-A093-FCBA3330E86E}|Quizz\\Quizz.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\quizz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38B9C2E7-FF47-4B9A-A093-FCBA3330E86E}|Quizz\\Quizz.csproj|solutionrelative:quizz\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\windowsformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EAB7F703-73D3-4A42-99F6-46FA34D2AD83}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B39C30CA-1652-4284-94A9-9A2E89787CCD}|Tot\\Tot.csproj|c:\\c#\\proiect_csharp\\csharp\\quiz\\tot\\tot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39C30CA-1652-4284-94A9-9A2E89787CCD}|Tot\\Tot.csproj|solutionrelative:tot\\tot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,30 +54,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Intrebare.cs",
               "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Intrebare\\Intrebare.cs",
               "RelativeDocumentMoniker": "Intrebare\\Intrebare.cs",
               "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Intrebare\\Intrebare.cs",
               "RelativeToolTip": "Intrebare\\Intrebare.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:11:14.91Z",
+              "WhenOpened": "2024-05-23T11:29:56.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tot.cs",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Tot\\Tot.cs",
+              "RelativeDocumentMoniker": "Tot\\Tot.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Tot\\Tot.cs",
+              "RelativeToolTip": "Tot\\Tot.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T23:56:08.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form3.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form3.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Form3.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwDoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:41:12.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form3.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form3.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:41:00.915Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form4.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form4.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form4.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:11:14.273Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form4.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form4.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form4.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Form4.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAgwLoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:46:29.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Program.cs",
               "RelativeDocumentMoniker": "Quiz\\Program.cs",
               "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quiz\\Program.cs",
               "RelativeToolTip": "Quiz\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAjwHMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T01:11:18.383Z",
               "EditorCaption": ""
@@ -81,83 +152,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Tot.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Tot\\Tot.cs",
-              "RelativeDocumentMoniker": "Tot\\Tot.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Tot\\Tot.cs",
-              "RelativeToolTip": "Tot\\Tot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:11:25.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Stocare.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\NivelStocareDate\\Stocare.cs",
-              "RelativeDocumentMoniker": "NivelStocareDate\\Stocare.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\NivelStocareDate\\Stocare.cs",
-              "RelativeToolTip": "NivelStocareDate\\Stocare.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAiwEAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:11:12.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs",
-              "RelativeToolTip": "WindowsFormsApp\\Form1.cs",
-              "ViewState": "AQIAABIBAAAAAAAAAAAvwCcBAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:11:49.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:10:27.213Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Intrebare1.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Intrebare1\\Intrebare1.cs",
-              "RelativeDocumentMoniker": "Intrebare1\\Intrebare1.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Intrebare1\\Intrebare1.cs",
-              "RelativeToolTip": "Intrebare1\\Intrebare1.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T13:08:21.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Quizz.cs",
-              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quizz\\Quizz.cs",
-              "RelativeDocumentMoniker": "Quizz\\Quizz.cs",
-              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\Quizz\\Quizz.cs",
-              "RelativeToolTip": "Quizz\\Quizz.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T01:11:21.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form2.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\Form2.cs",
@@ -169,16 +163,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form2.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp\\Form2.cs",
               "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form2.cs",
               "RelativeToolTip": "WindowsFormsApp\\Form2.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAtwEcAAAAMAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwEIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T16:54:23.32Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp\\Form1.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAgwAcBAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T01:11:49.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\Form1.cs",
+              "ToolTip": "C:\\C#\\Proiect_CSharp\\CSharp\\Quiz\\WindowsFormsApp\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T01:10:27.213Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
